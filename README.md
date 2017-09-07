@@ -8,8 +8,8 @@ check your nodejs version
 
 How to run ?
 ------
-- `git clone https://github.com/lianekof/Alphat.git`
-- `cd Alphat && npm install`
+- `git clone https://github.com/lianekof/Pasukan`
+- `cd Pasukan && npm install`
 - `npm start`
 
 
@@ -19,6 +19,3 @@ Still work :construction_worker:
 - Implement All 
 - Improve logic
 
-Author
-------
-[@alfathdirk](https://instagram.com/alfathdirk)
