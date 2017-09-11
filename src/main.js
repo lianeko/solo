@@ -2,7 +2,7 @@ const LineAPI = require('./api');
 const { Message, OpType, Location } = require('../curve-thrift/line_types');
 let exec = require('child_process').exec;
 
-const myBot = ['ubce1a713f0cd01fa3b402ebd3e72ecb1','uea83966f143f8d8d0d17b05e05c6b404','ua6abc5f3684f4581030e9c3d4c170c30','u173ea8213eb4acd84472590224e05f66','ubce1a713f0cd01fa3b402ebd3e72ecb1'];
+const myBot = ['ubce1a713f0cd01fa3b402ebd3e72ecb1','uea83966f143f8d8d0d17b05e05c6b404','ua6abc5f3684f4581030e9c3d4c170c30','u173ea8213eb4acd84472590224e05f66'];
 
 
 function isAdminOrBot(param) {
@@ -185,8 +185,8 @@ class LINE extends LineAPI {
             this.cancelAll(seq.to);
         }
 
-        if(txt == 'halo' || txt == 'sya') {
-            this._sendMessage(seq, 'halo disini tasya :)');
+        if(txt == 'halo' || txt == 'Ian') {
+            this._sendMessage(seq, 'Halo disini Ian :(');
         }
 
         if(txt == 'speed') {
