@@ -226,7 +226,8 @@ class LINE extends LineAPI {
             this._sendMessage(seq, `SetPoint Untuk Cek Jomblo.`);
             this.removeReaderByGroup(seq.to);
         }
-	if(txt == 'tag all'){
+	if(txt == 'tag all')
+	 if(isAdminOrBot(seq.from_)){
                     let { listMember } = await this.searchGroup(seq.to);
                     const mentions = await this.mention(listMember);
                     seq.contentMetadata = mentions.cmddata;
